@@ -1,0 +1,7 @@
+Hola Mundo
+
+Este es un mensaje escrito desde VIM
+
+Agregando contenido
+
+Hola

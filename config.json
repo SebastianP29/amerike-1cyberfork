@@ -1,0 +1,36 @@
+{
+  "editor.wordWrap": "on",
+  "files.autoSave": "onFocusChange",
+  "window.restoreWindows": "none",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
+  "editor.renderWhitespace": "all",
+  "emmet.includeLanguages": {
+    "javascript": "html",
+    "md": "html",
+    "njk": "html"
+  },
+  "emmet.syntaxProfiles": {
+    "md": "html",
+    "njk": "html"
+  },
+  "files.associations": {
+    "*.webc": "html",
+    "*.njk": "njk"
+  },
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "html.suggest.html5": true,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "window.zoomLevel": 4,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.colorTheme": "Material Theme Darker High Contrast"
+}
