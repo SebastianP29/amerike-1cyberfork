@@ -35,10 +35,17 @@ git help config
 git init
 # git status, sirve para revisar el estado de los archivos de la carpeta que git esta supervisando
 git status
+# git log, visualiza el historial de cambios del repositorio
+git log
+
+
 # agregar los cambios de un archivo al staged
 git add archivo/directorio
 # agregar todos los cambios de todos los archivos al staged
 git add .
 # saca del stage y regresa al working directory el archivo indicado
 git rm --cached archivo
+# git commit, es el comando que me permite pasar del stagind al HEAD del repositorio, con este comando oficializo un cambio en el historial de mi repositorio
+git commit
+git commit -m "Mensaje del commit"
 ```
