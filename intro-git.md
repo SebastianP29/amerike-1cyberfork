@@ -53,6 +53,8 @@ git status
 git log
 # git remote -v comprueba los remotos que tiene el repositorio
 git remote -v
+# git clone, descarga una copia a la ruta donde se encuentra tu termnial del repositorio indicado
+git clone https://github.com/nombre-usuario/nombre-repo.git
 
 
 

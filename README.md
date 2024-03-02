@@ -5,4 +5,6 @@ Este es el repositorio de código de la asignatura Programación I de la Ingenie
 ## Teoría de la asignatura
 
 - [Introducción _Markdown_](./intro-markdown.md)
-- [Introducción _GIT_](./intro-git.md)
+- [Introducción _Git_](./intro-git.md)
+- [Artículo sobre _Git_](https://jonmircha.com/git)
+- [Curso de _Git_](https://www.youtube.com/watch?v=suzMNqDQiyU)
