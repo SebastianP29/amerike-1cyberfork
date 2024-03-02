@@ -33,10 +33,15 @@ git help config
 ```bash
 # git init, se ejecuta una sola vez en cada carpeta, para indicarle a git que tiene que supervisar dicha carpeta
 git init
+# git remote add origin url, se ejecuta la primera vez y sirve para vincular nuestra carpeta local con el repositorio remoto en GitHub
+git remote add origin https://github.com/nombre-usuario/nombre-repo.git
 # git status, sirve para revisar el estado de los archivos de la carpeta que git esta supervisando
 git status
 # git log, visualiza el historial de cambios del repositorio
 git log
+# git remote -v comprueba los remotos que tiene el repositorio
+git remote -v
+
 
 
 # agregar los cambios de un archivo al staged
@@ -48,4 +53,7 @@ git rm --cached archivo
 # git commit, es el comando que me permite pasar del stagind al HEAD del repositorio, con este comando oficializo un cambio en el historial de mi repositorio
 git commit
 git commit -m "Mensaje del commit"
+# el comando git push, sirve para empujar los cambios de la carpeta local al repositorio remoto (GitHub) la opción -u origin main es para indicarle que en subsecuentes subidas, los cambios se guardaran en el remoto llamado origin y en su rama main
+git push -u origin main
+git push
 ```
