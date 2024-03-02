@@ -1,0 +1,5 @@
+.DS_Store
+nueva-carpeta/
+*.exe
+!vacuna.exe
+

@@ -26,9 +26,21 @@ git help config
 
 ## Flujo Básico de _GIT_
 
+```bash
+git init (1)
+git branch -M main (1)
+git remote add origin https://github.com/usuario/repositorio.git (1)
+
+git add nombre-archivo o
+git add .
+git commit -m "Mensaje descriptivo del cambio"
+git push -u origin main (1)
+git push
+```
+
 ![Flujo Básico de _GIT_](https://jonmircha.com/img/blog/git-flow.png)
 
-## Inicializar _GIT_ por primera vez
+## Apuntes comandos _GIT_
 
 ```bash
 # git init, se ejecuta una sola vez en cada carpeta, para indicarle a git que tiene que supervisar dicha carpeta
