@@ -5,3 +5,12 @@ Este es un mensaje escrito desde VIM
 Agregando contenido
 
 Hola
+
+Agregando nuevo contenido
+
+Texto agregado después del commit
+
+Haciendo cambios bla bla bla
+
+Ya casi nos vamos de vacaciones uju 
+
