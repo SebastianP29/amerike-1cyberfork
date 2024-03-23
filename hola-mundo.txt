@@ -14,3 +14,6 @@ Haciendo cambios bla bla bla
 
 Ya casi nos vamos de vacaciones uju 
 
+Versionado 0.1.0
+Versionado 1.0.0
+

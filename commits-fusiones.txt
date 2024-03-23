@@ -1,0 +1,25 @@
+* 5dbd4a6 Nos vamos de vacaciones \Ü/
+*   8543008 Resolviendo conflictos del merge con la rama js
+|\  
+| * 30e00f5 Modificando HTML desde rama js
+* | bef08da modificando HTML desde main
+* | 3ac8e58 Fusionando cambios de la rama js
+|\| 
+| * 570a58b Enlazando Script al HTML y creando párrafos Lorem Ipsum
+| * 79e6b11 Creando script de programación
+* | ac7def4 Enlazando HTML y CSS
+* |   f49e865 Fusionando contenido de rama css
+|\ \  
+| |/  
+|/|   
+| * 12902c2 Creando hoja de estilos
+* | bcb20e5 Creando documento HTML
+|/  
+* 1574a5d Modificando README e intro-git
+* af0453f Agregando Teoría al README
+* a9131ac Creando LICENSE del repositorio
+* cbca5c2 Subiendo icono de Bitcoin en PNG
+* b2992d0 Creando y explicando archivo .git ignore
+* 25f5040 Agregando explicación de los comandos remote, push
+* b103a42 Agregando info del comando log y commit en el archivo intro-git.md
+* fb38bee Primer Commit

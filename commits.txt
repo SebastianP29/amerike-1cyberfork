@@ -1,0 +1,116 @@
+commit 5dbd4a699e2f5bb0837527f6fc7f1014472391e5
+Author: Jonathan MirCha <jonmircha@gmail.com>
+Date:   Sat Mar 23 07:11:07 2024 -0600
+
+    Nos vamos de vacaciones \Ü/
+
+commit 8543008e78dd67a722be0661fac1c8074e5161ce
+Merge: bef08da 30e00f5
+Author: Jonathan MirCha <jonmircha@gmail.com>
+Date:   Sat Mar 16 09:02:31 2024 -0600
+
+    Resolviendo conflictos del merge con la rama js
+
+commit 30e00f5fd9100b9575804b06f69d23340b99aab6
+Author: Jonathan MirCha <jonmircha@gmail.com>
+Date:   Sat Mar 16 08:57:13 2024 -0600
+
+    Modificando HTML desde rama js
+
+commit bef08da44e626f7348851e58df04bf7c136929ec
+Author: Jonathan MirCha <jonmircha@gmail.com>
+Date:   Sat Mar 16 08:55:42 2024 -0600
+
+    modificando HTML desde main
+
+commit 3ac8e5845cd455f17acf3df166093916a2c7ed79
+Merge: ac7def4 570a58b
+Author: Jonathan MirCha <jonmircha@gmail.com>
+Date:   Sat Mar 16 08:53:08 2024 -0600
+
+    Fusionando cambios de la rama js
+
+commit 570a58b07c8449c136cac27051b161255e35a703
+Author: Jonathan MirCha <jonmircha@gmail.com>
+Date:   Sat Mar 16 08:52:20 2024 -0600
+
+    Enlazando Script al HTML y creando párrafos Lorem Ipsum
+
+commit ac7def4637a94583efe49e332b03028b65cdcee5
+Author: Jonathan MirCha <jonmircha@gmail.com>
+Date:   Sat Mar 16 08:47:07 2024 -0600
+
+    Enlazando HTML y CSS
+
+commit f49e8654f054f70b4b28c7034c3d60f1a906b508
+Merge: bcb20e5 12902c2
+Author: Jonathan MirCha <jonmircha@gmail.com>
+Date:   Sat Mar 16 08:41:43 2024 -0600
+
+    Fusionando contenido de rama css
+
+commit 79e6b116c5351c5e9650a9b1d56bc1eac74b1f66
+Author: Jonathan MirCha <jonmircha@gmail.com>
+Date:   Sat Mar 16 08:30:50 2024 -0600
+
+    Creando script de programación
+
+commit 12902c2586463fab25676d3e38247ded3f3bcb3b
+Author: Jonathan MirCha <jonmircha@gmail.com>
+Date:   Sat Mar 16 08:11:19 2024 -0600
+
+    Creando hoja de estilos
+
+commit bcb20e5a2cecddab069166e4091c3325f54f63d2
+Author: Jonathan MirCha <jonmircha@gmail.com>
+Date:   Sat Mar 16 08:03:41 2024 -0600
+
+    Creando documento HTML
+
+commit 1574a5df5938729b7b85f73b4e812d74d4ce71d3
+Author: Jonathan MirCha <jonmircha@gmail.com>
+Date:   Sat Mar 2 10:49:34 2024 -0600
+
+    Modificando README e intro-git
+
+commit af0453f501f5d4e8a4e9e4c3d2151c9ba657625f
+Author: Jonathan MirCha <jonmircha@gmail.com>
+Date:   Sat Mar 2 10:26:24 2024 -0600
+
+    Agregando Teoría al README
+
+commit a9131ac22b45b4a74323c4564f94e99fe7917657
+Author: Jonathan MirCha <jonmircha@gmail.com>
+Date:   Sat Mar 2 10:34:15 2024 -0600
+
+    Creando LICENSE del repositorio
+
+commit cbca5c2de721a00cf82f41e7efb8e58613e31205
+Author: Jonathan MirCha <jonmircha@gmail.com>
+Date:   Sat Mar 2 10:28:17 2024 -0600
+
+    Subiendo icono de Bitcoin en PNG
+
+commit b2992d0f2e576a23edbc9bacfdaa305daf87160d
+Author: Jonathan MirCha <jonmircha@gmail.com>
+Date:   Sat Mar 2 10:22:42 2024 -0600
+
+    Creando y explicando archivo .git ignore
+
+commit 25f50402a307cd5c7c67c58c15aad6589c01a6fa
+Author: Jonathan MirCha <jonmircha@gmail.com>
+Date:   Sat Mar 2 10:00:00 2024 -0600
+
+    Agregando explicación de los comandos remote, push
+
+commit b103a42d9716236d62e89f0592b148b92697ec59
+Author: Jonathan MirCha <jonmircha@gmail.com>
+Date:   Sat Mar 2 09:40:55 2024 -0600
+
+    Agregando info del comando log y commit en el archivo intro-git.md
+
+commit fb38beec85389297bfbd0d7717a89b3a5074172b
+Author: Jonathan MirCha <jonmircha@gmail.com>
+Date:   Sat Mar 2 09:34:01 2024 -0600
+
+    Primer Commit
