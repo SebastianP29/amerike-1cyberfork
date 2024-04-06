@@ -1,19 +1,16 @@
 # Integrantes del grupo _@1Cyber_ de _Amerike_
 
-## Profesor
+## Estudiantes
 
-### Jonathan MirCha
+### Arturo Galeana
 
-Hola soy tu amigo y docente digital...
 
-- [jonmircha@gmail.com](jonmircha@gmail.com)
-- [Tu perfil de _GitHub_](https://github.com/jonmircha)
+- [agaleanacastillo@gmail](agaleanacastillo@gmail.com)
+- [Tu perfil de _GitHub_](https://github.com/Arturodeamerike)
 
-![Jon MirCha](./img/jonmircha.jpg)
+![Arturo Galena](./img/IMG20240227233254.jpg)
 
 ---
-
-## Estudiantes
 
 ### Carlos Alexis Rendon Sierra
 
