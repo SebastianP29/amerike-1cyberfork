@@ -12,7 +12,155 @@
     <link rel="stylesheet" href="css/intro-css.css" />
   </head>
   <body>
+    <h1 id="inicio">Introducción a HTML</h1>
+    <ul>
+      <!-- li*6>a -->
+      <li><a href="#encabezados">Encabezados</a></li>
+      <li><a href="#etiquetas-texto">Etiquetas de Texto</a></li>
+      <li><a href="#listas">Listas</a></li>
+      <li><a href="#tablas">Tablas</a></li>
+      <li><a href="#enlaces">Enlaces</a></li>
+      <li><a href="#"></a></li>
+    </ul>
+    <!-- 
+      Atajos de Teclado importantes
+        - Ajuste texto: alt + z
+        - Bloque de cometario: shift + alt + a
+        - Duplicar línea(s): shift + alt + ↓ o ↑
+        - Mover línea(s): alt + ↓ o ↑
+        - Salvar documento: ctrl + s
+        - Recargar en el navegador: ctrl: + r
+        - Estructura básica HTML: !
+    -->
     <p>Hola mundo</p>
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto odit
+      deleniti consequatur alias, voluptatibus molestiae unde dicta sapiente,
+      totam, at quisquam minima repudiandae reiciendis qui voluptas ea neque sed
+      nisi.
+    </p>
+    <a href="#inicio">Regresar al inicio ☝🏻</a>
+    <hr />
+    <h2 id="encabezados">Encabezados</h2>
+    <h1>Encabezado nivel 1</h1>
+    <h2>Encabezado nivel 2</h2>
+    <h3>Encabezado nivel 3</h3>
+    <h4>Encabezado nivel 4</h4>
+    <h5>Encabezado nivel 5</h5>
+    <h6>Encabezado nivel 6</h6>
+    <a href="#inicio">Regresar al inicio ☝🏻</a>
+    <hr />
+    <h2 id="etiquetas-texto">Etiquetas de texto</h2>
+    <p>
+      Esto es un párrafo. <b>Texto en Negrita</b>. <i>Texto en itálica</i>.
+      <u>Texto subrayado</u>
+    </p>
+    <p>
+      <b><i>Texto en negrita y cursiva</i></b>
+    </p>
+    <p>
+      La fórmula del agua es H<sub>2</sub>O.
+      <br /><br />
+      La fórmula de la relatividad es e=mc<sup>2</sup>.
+      <mark>Texto remarcado</mark>
+    </p>
+    <hr />
+    <blockquote>
+      "Yo sólo sé, que no sé nada".
+      <br />
+      <cite>Sócrates</cite>
+    </blockquote>
+    <p>Texto normal <small>Letras pequeñas</small></p>
+    <a href="#inicio">Regresar al inicio ☝🏻</a>
+    <hr />
+    <h2 id="listas">Listas</h2>
+    <h3>Listas Desordenadas</h3>
+    <ul>
+      <li>Primavera</li>
+      <li>Verano</li>
+      <li>Otoño</li>
+      <li>Invierno</li>
+    </ul>
+    <h3>Listas Ordenadas</h3>
+    <ol>
+      <li>Primavera</li>
+      <li>Verano</li>
+      <li>Otoño</li>
+      <li>Invierno</li>
+    </ol>
+    <ol type="I">
+      <li>Primavera</li>
+      <li>Verano</li>
+      <li>Otoño</li>
+      <li>Invierno</li>
+    </ol>
+    <ol start="51">
+      <li>Primavera</li>
+      <li>Verano</li>
+      <li>Otoño</li>
+      <li>Invierno</li>
+    </ol>
+    <h3>Listas Anidadas</h3>
+    <ol reversed>
+      <li>
+        Primavera
+        <ul>
+          <li>Abril</li>
+          <li>
+            Mayo
+            <ol type="A">
+              <li>Día del Trabajo</li>
+              <li>Día de las Madres</li>
+              <li>Día del Maestro</li>
+            </ol>
+          </li>
+          <li>Junio</li>
+        </ul>
+      </li>
+      <li>Verano</li>
+      <li>Otoño</li>
+      <li>Invierno</li>
+    </ol>
+    <a href="#inicio">Regresar al inicio ☝🏻</a>
+    <hr />
+    <h2 id="tablas">Tablas</h2>
+    <table border="1">
+      <tr>
+        <th>Ciudad</th>
+        <th>País</th>
+        <th>Continente</th>
+        <th>Idioma</th>
+      </tr>
+      <tr>
+        <td>CDMX</td>
+        <td>México</td>
+        <td>América</td>
+        <td>Español</td>
+      </tr>
+      <tr>
+        <td>París</td>
+        <td>Francia</td>
+        <td>Europa</td>
+        <td>Francés</td>
+      </tr>
+      <tr>
+        <td>Tokyo</td>
+        <td>Japón</td>
+        <td>Asia</td>
+        <td>Japonés</td>
+      </tr>
+    </table>
+    <a href="#inicio">Regresar al inicio ☝🏻</a>
+    <hr />
+    <h2 id="enlaces">Enlces</h2>
+    <a href="otro.html">Otro documento HTML</a>
+    <a
+      href="https://amerike.edu.mx/ingeniero-en-ciberseguridad/"
+      target="_blank"
+      >Ing. en Ciberseguridad de AMERIKE</a
+    >
+    <a href="#inicio">Regresar al inicio ☝🏻</a>
+    <hr />
     <script src="js/intro-js.js"></script>
   </body>
 </html>
