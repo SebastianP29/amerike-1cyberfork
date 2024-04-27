@@ -1,11 +1,194 @@
+:root {
+  --color-link: greenyellow;
+  --color-link-hover: #08c;
+  --font-main: "Raleway", sans-serif;
+}
+
 html {
   /*
   background-color: black;
   color: white;
   */
+  font-size: 100%; /* 100% = 16px */
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: var(--font-main);
+}
+
+/* selector universal */
+* {
+  box-sizing: content-box;
+}
+
+a {
+  color: orangered;
+  color: var(--color-link);
+}
+
+a:hover {
+  color: cornflowerblue;
+  color: var(--color-link-hover);
+}
+
+h1 {
+  color: navy;
+}
+
+h2 {
+  color: aqua;
+  background-color: black;
+  font-family: "Jacquard 24", system-ui;
+}
+
+img,
+video {
+  max-width: 100%;
+  /* width: ;
+  height: ;
+  max-width: ;
+  max-height: ;
+  min-width: ;
+  min-height: ; */
+}
+
+li:first-child {
+  background-color: aquamarine;
+}
+
+li:last-child {
+  background-color: cadetblue;
+}
+
+li:nth-child(2) {
+  background-color: bisque;
+}
+
 mark {
-  /* background-color: pink; */
+  background-color: pink;
+}
+
+section {
+  min-height: 100vh;
+}
+
+section:nth-child(odd) {
+  background-color: skyblue;
+}
+
+section:nth-child(even) {
+  background-color: peachpuff;
+}
+
+#listas {
+  background-color: aqua;
+  color: black;
+  text-align: center;
+}
+
+#menu li {
+  background-color: black;
+}
+
+.caja {
+  border: 3px solid black;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.seasons li {
+  background-color: darkcyan;
+}
+
+.text-chocolate {
+  color: chocolate;
+}
+
+.text-olive {
+  color: olive;
+}
+
+.text-skyblue {
+  color: skyblue;
+}
+
+.bg-khaki {
+  background-color: khaki;
+}
+
+.bg-purple {
+  background-color: purple;
+}
+
+.bg-navy {
+  background-color: navy;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.fs-200 {
+  font-size: 2rem;
+}
+
+.fs-150 {
+  font-size: 1.5rem;
+}
+
+.fs-100 {
+  font-size: 1rem;
+}
+
+.fs-75 {
+  font-size: 0.75rem;
+}
+
+.fs-50 {
+  font-size: 0.5rem;
+}
+
+.fs-25 {
+  font-size: 0.25rem;
+}
+
+.raleway-regular {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.raleway-bold {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.jacquard-24-regular {
+  font-family: "Jacquard 24", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.d-none {
+  display: none;
 }

@@ -9,12 +9,32 @@
       content="En este documento estamos aprendiendo los fundamentos de HTML"
     />
     <link rel="icon" href="img/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jacquard+24&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/intro-css.css" />
+    <style>
+      h1 {
+        color: #ffffff; /* blanco-ausencia de color */
+        color: #ff0000;
+        color: #00ff00;
+        color: #0000ff;
+        color: #ff5423;
+        color: #ff6600;
+        color: #f60;
+        color: #000000; /* negro - saturación de todos los colres */
+      }
+    </style>
   </head>
   <body>
     <header>
-      <h1 id="inicio">Introducción a HTML</h1>
-      <nav>
+      <h1 id="inicio" style="color: rosybrown" class="jacquard-24-regular">
+        Introducción a HTML
+      </h1>
+      <nav id="menu">
         <ul>
           <!-- li*6>a -->
           <li><a href="#encabezados">Encabezados</a></li>
@@ -27,6 +47,7 @@
           <li><a href="#iframe">Iframe</a></li>
           <li><a href="#etiquetas-semanticas">Etiquetas Semánticas</a></li>
           <li><a href="#detalles">Detalles</a></li>
+          <li><a href="#intro-css">Introducción a CSS</a></li>
         </ul>
       </nav>
     </header>
@@ -60,8 +81,8 @@
       <h5>Encabezado nivel 5</h5>
       <h6>Encabezado nivel 6</h6>
       <a href="#inicio">Regresar al inicio ☝🏻</a>
+      <hr />
     </section>
-    <hr />
     <section>
       <h2 id="etiquetas-texto">Etiquetas de texto</h2>
       <p>
@@ -85,8 +106,8 @@
       </blockquote>
       <p>Texto normal <small>Letras pequeñas</small></p>
       <a href="#inicio">Regresar al inicio ☝🏻</a>
+      <hr />
     </section>
-    <hr />
     <section>
       <h2 id="listas">Listas</h2>
       <h3>Listas Desordenadas</h3>
@@ -137,8 +158,8 @@
         <li>Invierno</li>
       </ol>
       <a href="#inicio">Regresar al inicio ☝🏻</a>
+      <hr />
     </section>
-    <hr />
     <section>
       <h2 id="tablas">Tablas</h2>
       <table border="1">
@@ -168,8 +189,8 @@
         </tr>
       </table>
       <a href="#inicio">Regresar al inicio ☝🏻</a>
+      <hr />
     </section>
-    <hr />
     <section>
       <h2 id="enlaces">Enlces</h2>
       <a href="otro.html">Otro documento HTML</a>
@@ -179,8 +200,8 @@
         >Ing. en Ciberseguridad de AMERIKE</a
       >
       <a href="#inicio">Regresar al inicio ☝🏻</a>
+      <hr />
     </section>
-    <hr />
     <section>
       <h2 id="imagenes">Imágenes</h2>
       <img src="img/html-for-babies.jpg" alt="HTML para bebés" />
@@ -213,8 +234,8 @@
         />
       </svg>
       <a href="#inicio">Regresar al inicio ☝🏻</a>
+      <hr />
     </section>
-    <hr />
     <section>
       <h2 id="audio-video">Audio y Video</h2>
       <audio src="media/feels.mp3" controls preload></audio>
@@ -225,8 +246,8 @@
         poster="img/puesta-de-sol.jpg"
       ></video>
       <a href="#inicio">Regresar al inicio ☝🏻</a>
+      <hr />
     </section>
-    <hr />
     <section>
       <h2 id="iframe">Iframe</h2>
       <iframe
@@ -255,8 +276,8 @@
         referrerpolicy="no-referrer-when-downgrade"
       ></iframe>
       <a href="#inicio">Regresar al inicio ☝🏻</a>
+      <hr />
     </section>
-    <hr />
     <section>
       <h2 id="etiquetas-semanticas">Etiquetas Semánticas</h2>
       <div>Esto es una div</div>
@@ -268,8 +289,8 @@
       <section>Esto es una section</section>
       <footer>Esto es un footer</footer>
       <a href="#inicio">Regresar al inicio ☝🏻</a>
+      <hr />
     </section>
-    <hr />
     <section>
       <h2 id="detalles">Detalles</h2>
       <details>
@@ -312,8 +333,84 @@
         </div>
       </details>
       <a href="#inicio">Regresar al inicio ☝🏻</a>
+      <hr />
     </section>
-    <hr />
+    <section>
+      <h2 id="intro-css">Introducción a CSS</h2>
+      <p class="text-chocolate bg-khaki text-left fs-100 raleway-regular">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
+        voluptatum hic obcaecati iste. Sequi, iusto nulla, dignissimos
+        doloremque accusamus eos doloribus tenetur debitis porro tempore
+        temporibus velit a sed? Non.
+      </p>
+      <p class="text-olive bg-navy text-center fs-200 raleway-bold">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
+        voluptatum hic obcaecati iste. Sequi, iusto nulla, dignissimos
+        doloremque accusamus eos doloribus tenetur debitis porro tempore
+        temporibus velit a sed? Non.
+      </p>
+      <p class="text-skyblue bg-purple text-right fs-150">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
+        voluptatum hic obcaecati iste. Sequi, iusto nulla, dignissimos
+        doloremque accusamus eos doloribus tenetur debitis porro tempore
+        temporibus velit a sed? Non.
+      </p>
+      <p class="bg-purple fs-75">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
+        voluptatum hic obcaecati iste. Sequi, iusto nulla, dignissimos
+        doloremque accusamus eos doloribus tenetur debitis porro tempore
+        temporibus velit a sed? Non.
+      </p>
+      <p class="text-olive bg-khaki text-right fs-50">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
+        voluptatum hic obcaecati iste. Sequi, iusto nulla, dignissimos
+        doloremque accusamus eos doloribus tenetur debitis porro tempore
+        temporibus velit a sed? Non.
+      </p>
+      <p class="text-skyblue text-center fs-25">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam
+        voluptatum hic obcaecati iste. Sequi, iusto nulla, dignissimos
+        doloremque accusamus eos doloribus tenetur debitis porro tempore
+        temporibus velit a sed? Non.
+      </p>
+      <div class="seasons">
+        <h4>Las Estaciones del Año</h4>
+        <ol>
+          <li>Primavera</li>
+          <li>Verano</li>
+          <li>Otoño</li>
+          <li>Invierno</li>
+        </ol>
+      </div>
+      <h3>Modelo de caja</h3>
+      <div class="caja">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste fugiat
+        voluptate recusandae, eaque dolorem doloremque sapiente amet porro quo?
+        Accusantium laboriosam laudantium eligendi quaerat, exercitationem odio
+        tempore sequi facilis veritatis?
+      </div>
+      <div class="caja">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste fugiat
+        voluptate recusandae, eaque dolorem doloremque sapiente amet porro quo?
+        Accusantium laboriosam laudantium eligendi quaerat, exercitationem odio
+        tempore sequi facilis veritatis?
+      </div>
+      <div class="caja">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste fugiat
+        voluptate recusandae, eaque dolorem doloremque sapiente amet porro quo?
+        Accusantium laboriosam laudantium eligendi quaerat, exercitationem odio
+        tempore sequi facilis veritatis?
+      </div>
+      <h3>Línea vs Bloque</h3>
+      <span class="bg-purple d-block">Elemento de línea</span>
+      <span class="bg-purple">Elemento de línea</span>
+      <span class="bg-purple">Elemento de línea</span>
+      <div class="bg-navy d-inline">Elemento de bloque</div>
+      <div class="bg-navy">Elemento de bloque</div>
+      <div class="bg-navy d-none">Elemento de bloque</div>
+      <a href="#inicio">Regresar al inicio ☝🏻</a>
+      <hr />
+    </section>
     <footer>
       <p>Sitio hecho por @jonmircha 2024.</p>
     </footer>
