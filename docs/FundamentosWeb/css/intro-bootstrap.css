@@ -1,0 +1,7 @@
+.bg-indigo {
+  background-color: var(--bs-indigo);
+}
+
+.text-orange {
+  color: var(--bs-orange);
+}
